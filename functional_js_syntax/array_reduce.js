@@ -2,7 +2,8 @@
 const text = ['The ships', 'hung in the sky,', 'much the way', 'that bricks don`t']
 
 // Your Code Here
-
+const jointed = text.reduce((accumlator,currentWord) => `${accumlator} ${currentWord}`);
+console.log(jointed);
 // expected output: "The ships hung in the sky, much the way that bricks don't"
 
 // ----------------------------------------------------------
@@ -26,7 +27,10 @@ const scores = [
         score: 13
     }
 ]
-
+const winner = scores.reduce((prev.score, current.score) => {
+    let highest = current.score;
+    if();
+});
 // Your Code Here
 
 // expected output: "C"
